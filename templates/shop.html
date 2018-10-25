@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet" href="css/styles.css">
+      <title> home </title>
+  </head>
+  <body>
+  	<h1 class="title">welcome to the shop page</h1>
+  	<h2> shop </h2>
+  	<p> itemss to shop </p>
+  	<br>
+    <ul>
+      {% for item in items%}
+      <li> {{item}} </li>
+      {% endfor%}
+    </ul>
+    <p> WOW VERY NICE</p>
+  </body>
+  </html>
